@@ -38,7 +38,7 @@ const validFile = path => {
     }
 }
 const newFile = (path, start = {}, overwrite = false) => {
-    if(!overwrite && existsFile(path)) return;
+    if(!overwrite && existsFile(path)) return new DBFile(path);
     fs.writeFileSync(joinData(path), JSON.stringify(start));
     return new DBFile(path);
 };
