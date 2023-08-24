@@ -1,0 +1,24 @@
+{
+  "name": "leto-database",
+  "version": "0.1.0",
+  "description": "A database library for LeTo services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetovoLeTo/leto-database.git"
+  },
+  "keywords": [
+    "leto",
+    "letovo",
+    "database"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetovoLeTo/leto-database/issues"
+  },
+  "homepage": "https://github.com/LetovoLeTo/leto-database#readme"
+}
